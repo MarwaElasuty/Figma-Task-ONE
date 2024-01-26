@@ -191,6 +191,7 @@ img[alt="background-person"] {
     justify-content: flex-start;
     column-gap: 15px;
     row-gap: 15px;
+    padding-top: 10px;
 }
 
 /* mode media query , dark or white */
