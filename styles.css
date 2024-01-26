@@ -143,9 +143,10 @@ img[alt="menu"] {
 }
 
 .background-side-text {
-    width: 35%;
+    width: 49%;
     padding: 13px;
     margin: auto;
+    font-size: 20px;
 }
 
 button[name="join-btn"] {
@@ -165,8 +166,8 @@ button[name="join-btn"] {
 img[alt="background-person"] {
     width: 302px;
     position: absolute;
-    right: 251px;
-    top: 62px;
+    right: 225px;
+    top: 56px;
 }
 
 
@@ -331,6 +332,11 @@ img[alt="background-person"] {
 
 .start>p {
     padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.start > h2{
+    font-size: 30px;
 }
 
 .cards {
@@ -356,10 +362,13 @@ img[alt="background-person"] {
     background-color: rgb(115, 177, 178);
     border-style: none;
     border-radius: 20px;
+    font-size: 17px;
+
 }
 
 .card-content>h3 {
     padding-bottom: 15px;
+    font-size: 25px;
 }
 
 .offer p {
@@ -375,6 +384,7 @@ img[alt="background-person"] {
 
     .card-content {
         width: 43%;
+        font-size: 20px;
     }
 
     .offer-img-div {
@@ -393,6 +403,8 @@ img[alt="background-person"] {
 
     .card-content {
         width: 48%;
+        font-size: 20px;
+
     }
 
     .offer-img-div {
@@ -411,6 +423,8 @@ img[alt="background-person"] {
 
     .card-content {
         width: 98%;
+        font-size: 20px;
+
     }
 
     .offer-img-div {
@@ -429,10 +443,16 @@ img[alt="background-person"] {
 
     .card-content {
         width: 100%;
+        font-size: 20px;
+
     }
 
+    .offer h2{
+        font-size: 30px;
+    }
     .offer p {
         width: 100%;
+        font-size: 21px;
     }
 }
 
@@ -550,6 +570,14 @@ img[alt="training"] {
     img[alt="training"] {
         width: 100%;
     }
+
+    .training p{
+        font-size: 21px;
+    }
+
+    .training h3{
+        font-size: 25px;
+    }
 }
 
 .membership {
@@ -559,7 +587,7 @@ img[alt="training"] {
 
 .membership h2 {
     padding-bottom: 25px;
-    font-size: 30px;
+    font-size: 37px;
 }
 
 .membership-cards {
@@ -675,8 +703,8 @@ button[name="join-club"] {
 @media screen and (max-width: 600px) {
     .card {
         padding: 60px;
-
         width: 100%;
+        font-size: 21px;
     }
 
     .card>p {
